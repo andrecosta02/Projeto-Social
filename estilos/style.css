@@ -31,7 +31,16 @@ main {
     width: 311px;
     /* background-color: blue; */
     background:  url('../imagens/frame-iphone.png') no-repeat;
-    
+}
+
+#botao-home > a > img {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
+    width: 50px;
 }
 
 iframe#tela {
